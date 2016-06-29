@@ -1,3 +1,3 @@
-# language-tcl package
+# language-tcl-OpenSees package
 
-This package provides syntax highlighting in atom.io for the Tcl programming language. It was created from the TextMate bundle.
+A fork of language-tcl which supports highlighting for OpenSees commands.
