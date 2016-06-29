@@ -1,9 +1,9 @@
 {
-  "name": "language-tcl",
+  "name": "language-tcl-opensees",
   "version": "0.1.2",
   "private": true,
-  "description": "Syntax highlighting for Tcl",
-  "repository": "https://github.com/zpconn/language-tcl",
+  "description": "Syntax highlighting for Tcl with OpenSees support",
+  "repository": "https://github.com/andrewdsen/language-tcl-opensees",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
