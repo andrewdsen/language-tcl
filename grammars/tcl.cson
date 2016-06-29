@@ -23,7 +23,7 @@
     'captures':
       '1':
         'name': 'keyword.control.tcl'
-    'match': '(?<=^|[\\[{;])\\s*(if|while|for|catch|return|break|continue|switch|exit|foreach)\\b'
+    'match': '(?<=^|[\\[{;])\\s*(if|while|for|catch|return|break|continue|switch|exit|foreach|model)\\b'
   }
   {
     'captures':
@@ -171,7 +171,7 @@
     ]
   'regexp':
     'begin': '(?=\\S)(?![\\n;\\]])'
-    'comment': 'matches a single word, named as a regexp, then swallows the rest of the command'            
+    'comment': 'matches a single word, named as a regexp, then swallows the rest of the command'
     'end': '(?=[\\n;\\]])'
     'patterns': [
       {
@@ -193,7 +193,7 @@
           }
           {
             'include': '#string'
-          }        
+          }
         ]
       }
       {
@@ -215,7 +215,7 @@
           }
           {
             'include': '#inner-braces'
-          }          
+          }
         ]
       }
     ]
