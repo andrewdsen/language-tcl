@@ -2,7 +2,7 @@
   'tcl'
 ]
 'firstLineMatch': '^#!/.*\\btclsh\\b'
-'name': 'Tcl'
+'name': 'Tcl-OpenSees'
 'patterns': [
   {
     'begin': '(?<=^|;)\\s*((#))'
@@ -23,7 +23,7 @@
     'captures':
       '1':
         'name': 'keyword.control.tcl'
-    'match': '(?<=^|[\\[{;])\\s*(if|while|for|catch|return|break|continue|switch|exit|foreach|model)\\b'
+    'match': '(?<=^|[\\[{;])\\s*(if|while|for|catch|return|break|continue|switch|exit|foreach|model|node|fix|uniaxialMaterial|section|patch|geomTransf|element|recorder|record|timeSeries|pattern|constraints|numberer|system|test|algorithm|integrator|analysis|analyze|wipe)\\b'
   }
   {
     'captures':
